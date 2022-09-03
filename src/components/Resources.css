@@ -1,0 +1,105 @@
+.Resources_page{
+  align-items: center;
+  justify-self: center;
+}
+  .resources_title{
+    width: 70%;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+  }
+  .resources_title::before,
+  .resources_title::after
+  {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #4caf50;
+    margin: auto;
+
+  }
+  .resource_content{
+    margin-left: 10px;
+    margin-top: -19px;
+    background-color:rgb(232, 237, 238);
+    width: 70%;
+  }
+  .Rsource_content_title{
+    background-color: rgb(232, 237, 238);;
+    font-size: 1.2rem;
+  }
+  .Resources_img{
+    width: 100%;
+    height: inherit;
+    border-radius: 5px;
+  }
+  .Resources_container{
+    display: flex;
+    flex: 2;
+    overflow: auto;
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-bottom: 5px;
+    width: 70%;
+    padding: 20px;
+    justify-content: center;
+    background-color: #34495e;;
+    border-radius: 5px;
+  }
+  /*vertical line draw  */
+  .vl {
+    border-left: 5px solid green;
+    height: 190px;
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+  /*vertical line draw  */
+
+  /* For Desktop View */
+@media (min-width: 1024px) {
+  .Resources_page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    font-size:14px; 
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+.Resources_card{
+  margin-left: 20px;
+}
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+ 
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+  
+}
+
+  
